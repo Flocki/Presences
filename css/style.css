@@ -1,0 +1,67 @@
+html{
+	width: 100%;
+}
+
+body{
+	width: 80%;
+	margin: 0 auto;
+}
+
+header{
+	background-color: #dce8f7;
+}
+
+h1{
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 310px;
+	color: #666;
+}
+
+.hidden{
+	display: none;
+}
+
+ol li{
+	padding: 10px;
+	border: 1px solid #bbb;
+}
+
+.actif{
+	border-right: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+.actif a{
+	color: #007796;
+}
+
+section{
+	border-top: 1px solid #bbb;
+	padding: 10px;
+}
+
+span{
+	float: right;
+	padding-right: 20px;
+}
+
+span a{
+	padding: 5px;
+	color: red;
+	text-decoration: underline;
+}
+
+span a:first-child{
+	margin-right: 10px;
+}
+
+p+a{
+	display: inline-block;
+	margin-top: 50px;
+}

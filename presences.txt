@@ -1,0 +1,84 @@
+PRISE DE PRESENCES
+
+Accueil
+
+   - Inscription, connexion
+   - Menu : cours, élèves, années académiques, présences
+   - Afficher le cours (en cours ou à venir)
+
+
+Inscription d'un prof
+
+   - Nom
+   - Prénom
+   - email
+   - Avatar
+   - Mot de passe
+
+
+Identification d'un prof
+
+   - Login (email)
+   - Mot de passe
+
+
+Gérer les cours
+
+   - Ajouter un cours
+	Nom du cours, (durée du cours (h/sem), local, nbre semaines de cours,) année académique
+	Associer des élèves à des cours
+   		- par groupe
+			Liste des groupes (checkbox)
+   		- par élève
+			Liste des élèves (checkbox)
+	
+   - Modifier un cours
+	Nom du cours, (durée du cours (h/sem), local, nbre semaines de cours,) année académique
+	Associer des élèves à des cours
+   		- par groupe
+			Liste des groupes (checkbox)
+   		- par élève
+			Liste des élèves (checkbox)
+
+   - Supprimer un cours
+	Bouton supprimer, avec demande de confirmation
+
+
+Planification des séances
+
+   - soit par date (une à une)
+   - soit un genre de boucle pour les faire toutes d'un coup
+
+
+Gérer les élèves
+
+   - Ajouter un élève en vérifiant qu'il n'est pas déjà enregistré (par auto-complétion sur l'email)
+	Nom et prénom de l'élève, photo, email de l'élève, groupe de l'élève	
+
+   - Modifier un élève
+	Nom et prénom de l'élève, photo, email de l'élève, groupe de l'élève
+
+   - Supprimer un élève
+	Bouton supprimer, avec demande de confirmation
+
+
+Gérer les groupes
+
+   - Liste des groupes
+	Pour chaque groupe, liste des élèves
+
+   - Ajouter, modifier (le nom du groupe ou la liste des élèves) ou supprimer un groupe 
+
+
+Prise de présence par séance
+
+   - Liste des élèves pour ce cours
+   - Liste déroulante: absence justifiée, absence non justifiée, présence
+   - Possibilité de revenir aux séances précédentes pour modification (remise d'un certificat)
+
+
+Bilan des présences d'un élève à un cours (sur la page du cours)
+
+   - Liste des élèves 
+	Pour chaque élève, voir nbre d'absence (justifiée ou non)
+			   voir nbre de présence
