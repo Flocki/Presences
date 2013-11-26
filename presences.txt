@@ -3,7 +3,7 @@ PRISE DE PRESENCES
 Accueil
 
    - Inscription, connexion
-   - Menu : cours, élèves, années académiques, présences
+   - Menu : cours, élèves, présences
    - Afficher le cours (en cours ou à venir)
 
 

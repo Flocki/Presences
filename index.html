@@ -8,20 +8,42 @@
 </head>
 <body>
 	<header>
-		<h1>Prise de présences</h1>
+		<h1><a href="index.html">Prise de présences</a></h1>
 	</header>
 	<ol class="col-md-3 list-unstyled">
-		<li class="actif"><a href="">Cours</a></li>
+		<li><a href="">Mon profil</a></li>
+		<li><a href="cours.html">Cours</a></li>
 		<li><a href="">Elèves</a></li>
-		<li><a href="">Présences</a></li>
-		<li><a href="">Années académiques</a></li>
+		<li><a href="">Présences</a></li>	
 	</ol>
 	<section class="col-md-9">
-		<h1 class="hidden">Partie principale</h1>
-		<p><a href="">Projets Web</a><span><button class="btn" href="modifierCours.html/id=1">Modifier</button> <a href="supprimerCours.html/id=1">Supprimer</a></span></p>
-		<p><a href="">Typographie</a> <span><button class="btn" href="modifierCours.html/id=2">Modifier</button> <a href="supprimerCours.html/id=2">Supprimer</a></span></p>
-
-		<a class="col-md-5" href="ajouterCours">Ajouter un nouveau cours</a>
+		<h1 class="hidden">Connexion</h1>
+		<article class="col-md-6 inscription">
+			<h2 class="text-center">Inscription</h2>
+			<form action="">
+				<label class="col-md-3" for="nom">Nom</label>
+				<input class="col-md-9" id="nom" type="text" placeholder="Entrez votre nom"/><br />
+				<label class="col-md-3" for="prenom">Prénom</label>
+				<input class="col-md-9" id="prenom" type="text" placeholder="Entrez votre prénom"/><br />
+				<label class="col-md-3" for="email">Email</label>
+				<input class="col-md-9" id="email" type="email" placeholder="Entrez votre email"/><br />
+				<label class="col-md-3" for="avatar">Avatar</label>
+				<input class="col-md-9" id="avatar" type="file" placeholder="Choisissez un avatar"/><br />
+				<label class="col-md-3" for="mdp">Mot de passe</label>
+				<input class="col-md-9" id="mdp" type="password" placeholder="Choisissez un mot de passe"/><br />
+				<input class="col-md-12" type="submit" value="S'inscrire" />
+			</form>
+		</article>
+		<article class"col-md-12">
+			<h2 class="text-center">Connexion</h2>
+			<form action="indexProf.html">
+				<label class="col-md-3" for="login">Login</label>
+				<input class="col-md-9" id="login" type="text" placeholder="Entrez votre email"/><br />
+				<label class="col-md-3" for="password">Mot de passe</label>
+				<input class="col-md-9" id="password" type="password" placeholder="Entrez votre mot de passe"/><br />
+				<input class="col-md-12" type="submit" value="Se connecter" />
+			</form>
+		</article>
 	</section>
 </body>
 </html>
