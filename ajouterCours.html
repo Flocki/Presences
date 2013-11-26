@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Prise de présences</title>
+	<link rel="stylesheet" href="./css/bootstrap.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<header>
+		<h1><a href="index.html">Prise de présences</a></h1>
+	</header>
+	<ol class="col-md-3 list-unstyled">
+		<li><a href="profil.html">Mon profil</a></li>
+		<li class="actif"><a href="cours.html">Cours</a></li>
+		<li><a href="">Elèves</a></li>
+		<li><a href="">Présences</a></li>	
+	</ol>
+	<section class="col-md-9">
+		<h1 class="hidden">Partie principale</h1>
+		<h2>Ajouter un cours</h2>
+		<form action="cours.html">
+			<fieldset class="col-md-12">
+				<label for="nomCours">Nom du cours</label>
+				<input type="text" id="nomCours" placeholder="Le nom du cours" /><br />
+				<label for="anneeAcademique">Année académique</label>
+				<input type="text" id="anneeAcademique" placeholder="2013-2014" />
+			</fieldset>
+			<fieldset class="col-md-6">
+				<input type="checkbox" /><label>Groupe 1</label><br />
+				<input type="checkbox" /><label>Groupe 2</label><br />
+				<input type="checkbox" /><label>Groupe 3</label>
+			</fieldset>
+			<fieldset class="col-md-6">
+				<input type="checkbox" /><label>Elève 1</label><br />
+				<input type="checkbox" /><label>Elève 2</label><br />
+				<input type="checkbox" /><label>Elève 3</label><br />
+				<input type="checkbox" /><label>Elève 4</label><br />
+				<input type="checkbox" /><label>Elève 5</label><br />
+				<input type="checkbox" /><label>Elève 6</label>
+			</fieldset>
+			<input type="submit" value="Ajouter ce cours">
+		</form>
+	</section>
+</body>
+</html>
