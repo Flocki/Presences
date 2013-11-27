@@ -24,6 +24,9 @@ Identification d'un prof
 
 Gérer les cours
 
+   - Voir un cours
+	Nom du cours, année académique, élèves associés, description du cours, tableau des présences et bilan des élèves 	
+
    - Ajouter un cours
 	Nom du cours, (durée du cours (h/sem), local, nbre semaines de cours,) année académique
 	Associer des élèves à des cours
@@ -52,11 +55,13 @@ Planification des séances
 
 Gérer les élèves
 
+   - Voir les élèves
+
    - Ajouter un élève en vérifiant qu'il n'est pas déjà enregistré (par auto-complétion sur l'email)
-	Nom et prénom de l'élève, photo, email de l'élève, groupe de l'élève	
+	Nom et prénom de l'élève, photo, email de l'élève, (groupe de l'élève)	
 
    - Modifier un élève
-	Nom et prénom de l'élève, photo, email de l'élève, groupe de l'élève
+	Nom et prénom de l'élève, photo, email de l'élève, (groupe de l'élève)
 
    - Supprimer un élève
 	Bouton supprimer, avec demande de confirmation

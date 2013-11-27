@@ -13,31 +13,44 @@
 	<ol class="col-md-3 list-unstyled">
 		<li><a href="profil.html">Mon profil</a></li>
 		<li class="actif"><a href="cours.html">Cours</a></li>
-		<li><a href="">Elèves</a></li>
-		<li><a href="">Présences</a></li>	
+		<li><a href="elevesIndex.html">Elèves</a></li>
+		<li><a href="presencesIndex.html">Présences</a></li>	
 	</ol>
 	<section class="col-md-9">
 		<h1 class="hidden">Partie principale</h1>
-		<h2>Ajouter un cours</h2>
+		<h2 class="text-center">Ajouter un cours</h2>
 		<form action="cours.html">
 			<fieldset class="col-md-12">
-				<label for="nomCours">Nom du cours</label>
-				<input type="text" id="nomCours" placeholder="Le nom du cours" /><br />
-				<label for="anneeAcademique">Année académique</label>
-				<input type="text" id="anneeAcademique" placeholder="2013-2014" />
+				<label class="col-md-3" for="nomCours">Nom du cours</label>
+				<input class="col-md-9" type="text" id="nomCours" placeholder="Le nom du cours" />
+				<br />
+				<label class="col-md-3" for="anneeAcademique">Année académique</label>
+				<input class="col-md-9" type="text" id="anneeAcademique" placeholder="2013-2014" />
+			</fieldset>
+			<fieldset class="col-md-12">
+				<label class="col-md-12">Ce cours se donnera le&nbsp;:</label><br />
+				<input type="checkbox" /> <label>Lundi</label><br />
+				<input type="checkbox" /> <label>Mardi</label><br />
+				<input type="checkbox" /> <label>Mercredi</label><br />
+				<input type="checkbox" /> <label>Jeudi</label><br />
+				<input type="checkbox" /> <label>Vendredi</label><br />
+				<label for="dateDebut">Du</label>
+				<input type="date" id="dateDebut" placeholder="jj/mm/aaaa" /><br />
+				<label for="dateFin">au</label>
+				<input type="date" id="dateFin" placeholder="jj/mm/aaaa" />
 			</fieldset>
 			<fieldset class="col-md-6">
-				<input type="checkbox" /><label>Groupe 1</label><br />
-				<input type="checkbox" /><label>Groupe 2</label><br />
-				<input type="checkbox" /><label>Groupe 3</label>
+				<input type="checkbox" /> <label>Groupe 1</label><br />
+				<input type="checkbox" /> <label>Groupe 2</label><br />
+				<input type="checkbox" /> <label>Groupe 3</label>
 			</fieldset>
 			<fieldset class="col-md-6">
-				<input type="checkbox" /><label>Elève 1</label><br />
-				<input type="checkbox" /><label>Elève 2</label><br />
-				<input type="checkbox" /><label>Elève 3</label><br />
-				<input type="checkbox" /><label>Elève 4</label><br />
-				<input type="checkbox" /><label>Elève 5</label><br />
-				<input type="checkbox" /><label>Elève 6</label>
+				<input type="checkbox" /> <label>Elève 1</label><br />
+				<input type="checkbox" /> <label>Elève 2</label><br />
+				<input type="checkbox" /> <label>Elève 3</label><br />
+				<input type="checkbox" /> <label>Elève 4</label><br />
+				<input type="checkbox" /> <label>Elève 5</label><br />
+				<input type="checkbox" /> <label>Elève 6</label>
 			</fieldset>
 			<input type="submit" value="Ajouter ce cours">
 		</form>

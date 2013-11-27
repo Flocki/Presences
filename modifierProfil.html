@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Prise de présences</title>
+	<link rel="stylesheet" href="./css/bootstrap.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<header>
+		<h1><a href="index.html">Prise de présences</a></h1>
+	</header>
+	<ol class="col-md-3 list-unstyled">
+		<li class="actif"><a href="profil.html">Mon profil</a></li>
+		<li><a href="cours.html">Cours</a></li>
+		<li><a href="elevesIndex.html">Elèves</a></li>
+		<li><a href="presencesIndex.html">Présences</a></li>	
+	</ol>
+	<section class="col-md-9">
+		<h1 class="hidden">Partie principale</h1>
+		<h2 class="text-center">Modifier les données de mon profil</h2>
+		<form action="profil.html">
+			<fieldset class="col-md-12">
+				<label class="col-md-3" for="nomProf">Nom</label>
+				<input class="col-md-9" type="text" id="nomProf" placeholder="Vilain" />
+				<br />
+				<label class="col-md-3" for="prenomProf">Prénom</label>
+				<input class="col-md-9" type="text" id="prenomProf" placeholder="Dominque" />
+				<br />
+				<label class="col-md-3" for="emailProf">Email</label>
+				<input class="col-md-9" type="email" id="emailProf" placeholder="dominique.vilain@hepl.be" />
+				<br />
+				<label class="col-md-3" for="avatarProf">Avatar</label>
+				<input class="col-md-9" type="file" id="avatarProf" />
+			</fieldset>
+			<input type="submit" value="Modifier mon profil">
+		</form>
+	</section>
+</body>
+</html>
